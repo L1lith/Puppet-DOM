@@ -1,0 +1,34 @@
+{
+  "name": "puppet-dom",
+  "version": "0.0.1",
+  "description": "Service Worker based Webpage Renderer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L1lith/Puppet-DOM.git"
+  },
+  "keywords": [
+    "service",
+    "worker",
+    "html",
+    "dom",
+    "javascript",
+    "client",
+    "side",
+    "rendering",
+    "webpage",
+    "web",
+    "render",
+    "renderer",
+    "react"
+  ],
+  "author": "L1lith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/L1lith/Puppet-DOM/issues"
+  },
+  "homepage": "https://github.com/L1lith/Puppet-DOM#readme"
+}
