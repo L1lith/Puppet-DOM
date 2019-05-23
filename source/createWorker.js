@@ -15,7 +15,7 @@ async function createWorker(config={}) {
   await timer(100)
   await cp(templateFolder, buildFolder)
   let entryFileContents = await readFile(entryFile, "utf8")
-  entryFileContents = "const dependencies = {"+ dependencies.map(dependency => `"${dependency}": require("${dependency}")`).join(",") + "}\n" + entryFileContents
+  entryFileContents = dependencies.map((dependency, index) => `import dependency${index} from "${dependency}"`).join("\n") + "\n\n" + entryFileContents
   await writeFile(entryFile, entryFileContents)
 }
 
