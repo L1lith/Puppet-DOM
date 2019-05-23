@@ -30,5 +30,10 @@
   "bugs": {
     "url": "https://github.com/L1lith/Puppet-DOM/issues"
   },
-  "homepage": "https://github.com/L1lith/Puppet-DOM#readme"
+  "homepage": "https://github.com/L1lith/Puppet-DOM#readme",
+  "devDependencies": {
+    "@alexbinary/cp": "^1.0.1",
+    "del": "^4.1.1",
+    "mz": "^2.7.0"
+  }
 }
